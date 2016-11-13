@@ -13,7 +13,7 @@
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
-
+    <!--添加资源映射到本地-->
     <mvc:resources mapping="/resources/**" location="/resources/static/"/>
 
 </beans>
